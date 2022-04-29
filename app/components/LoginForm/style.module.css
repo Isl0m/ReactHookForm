@@ -1,0 +1,22 @@
+.main {
+  @apply my-8 mx-auto p-6 rounded-lg w-[30vw] text-slate-700 shadow-2xl;
+}
+.field {
+  @apply w-full border border-slate-200 text-base  my-2 p-2 rounded-lg outline-none;
+}
+.field:focus {
+  @apply border-sky-400 shadow shadow-sky-200;
+}
+.btn[type='submit'] {
+  @apply w-full  text-white bg-sky-400 my-2 p-2 rounded-lg
+     outline-none hover:bg-sky-500;
+}
+.form {
+  @apply flex flex-col;
+}
+.title {
+  @apply text-lg;
+}
+.title > span {
+  @apply text-red-500;
+}

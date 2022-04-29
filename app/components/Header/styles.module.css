@@ -1,0 +1,16 @@
+.box {
+  @apply flex justify-between items-center border-b px-12;
+}
+.list {
+  @apply flex justify-between items-center list-none;
+}
+.list > li {
+  @apply text-slate-700 mx-2;
+}
+.list > li:hover {
+  @apply text-sky-500 cursor-pointer;
+}
+.btn {
+  @apply block text-white bg-sky-400 my-2 p-2 rounded-lg
+           outline-none hover:bg-sky-500;
+}
